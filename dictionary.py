@@ -1,5 +1,4 @@
-### dictionaries are used to store data values in key:value pairs, means word:meaning
-# They are unordered mutable(changeable) & don't alllow duplicate keys
+
 resume = {
     "Name"     : "Umair",
     "Father"   : "Farooq Ah",
@@ -15,9 +14,8 @@ print(resume["Name"])
 print(resume["Cgpa"])
 print(resume["Subject"])
 
-# keys cannot be repeated,or changed
-resume["Name"] = "Mir Umair"    # values can be altered
-resume["Surname"] =  "Mir"       # we can add some new key:value
+resume["Name"] = "Mir Umair"   
+resume["Surname"] =  "Mir"  
 print(resume)
 
 
@@ -30,7 +28,7 @@ print(null_dict)
 
 
 ### nested Dictionary
-# where one or more of the values are themselves dictionaries
+
 
 M_sheet = {
     "name"  : "Sahira",

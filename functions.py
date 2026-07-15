@@ -28,38 +28,9 @@
 #     return avg
 # Calc_Avg(10,20,30,40)
 
-# # Example 5 (This will return the value and print it)
-# def Calc_Avg(a,b,c,d):
-#     sum = a+b+c+d
-#     avg = sum / 4
-#     print(avg)
-#     return avg
-# Calc_Avg(10,20,30,40)
 
-### Three different examples of functions with parameters and return values
 
-# Example 1
-# calculates the sum, returns it, But not prints it
-def Sum1(a,b):
-    sum1 = a + b
-    return sum1
-Sum1(10,10)
 
-# Example 2
-# calculates the sum, returns  it, but prints it immediately 
-# However, it doesn't return the value for further use.
-def Sum2(a,b):
-    sum2 = a + b
-    print(sum2) 
-Sum2(10,20)
-
-# Example 3
-# calculates the sum, prints it immediately,returns it
-def Sum3(a,b):
-    sum3 = a + b
-    print(sum3) 
-    return sum3
-Sum3(20,20)
 
 
 
